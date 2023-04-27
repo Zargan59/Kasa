@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Shrikhand&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;   
+}
+.accordion{
+    width: 100%;
+}
+.accordion-content{
+    margin-bottom: 30px;
+    /* width: 100%; */
+}
+.accordion-visible {
+    position: relative;
+    background-color: #FF6060;
+    /* width: 100%; */
+    color: #fff;
+    
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    cursor: pointer;
+    border-radius: 5px;
+    height: 50px;
+    color: white;
+}
+.collapse_li{
+    display: flex;
+
+    list-style: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+
+    color: #FF6060;
+    margin-left: 20px;
+}
+
+.accordion-visible img {
+    width: 20px;
+    padding: 0 20px ;
+
+    transform: rotate(180deg);
+    transition: transform 0.2s ease-in-out;
+}
+.accordion-visible img.active {
+    transform: rotate(0deg)
+}
+
+.accordion-visible h2 {
+    line-height: 34px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0 20px ;
+    font-size: 24px;
+}
+
+.accordion-toggle {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: -5px;
+    font-size: 18px;
+    opacity: 0;
+
+    transform: translateY(0px);
+    transition: 
+    opacity 0.3s ease-in-out,
+    height 0.3s 0.3s ease-in-out;
+
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    
+    z-index: 2;
+    display: flex;
+
+    background-color:  #F7F7F7;
+    /* background-color:  pink; */
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+}
+
+
+.accordion-toggle_hidden{
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transform: translateY(-100px);
+}
+
+.collapse_texte{
+    margin: 0px 20px;
+    overflow: hidden;
+
+    color: #FF6060;
+    font-size: 24px;
+    font-weight: 400;
+    z-index: 2;
+
+}
+
+@media all and (max-width: 812px) {
+.accordion{
+    width: 100%;
+    margin: 0;
+}
+.accordion-toggle{
+    height: auto;
+}
+.collapse_ul{
+    width: 150px;
+    margin-left:10px ;
+}
+}
+
+

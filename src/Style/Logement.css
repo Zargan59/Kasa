@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Shrikhand&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logement-titre{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 51px;
+
+    display: flex;
+    align-items: flex-end;
+    margin: 0px;
+
+    color: #FF6060;
+}
+.logement-location{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+
+    display: flex;
+    align-items: flex-end;
+    margin: 0px;
+
+    color: #FF6060;
+}
+
+
+.logement-tag{
+    display: flex;
+    list-style: none;
+}
+
+.logement-tag li{
+    margin-right: 10px;
+    background-color:#FF6060 ;
+    color: white;
+    padding: 5px 40px ;
+    border-radius: 12px ;
+}
+.logement-content{
+    display: flex;
+    gap: 75px;
+    margin: 24px 100px 0;
+}
+.collapse_logement{
+    width: 50%;
+    margin-bottom: 150px ;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logement-info{
+    /* border: 2px solid green; */
+    display: flex;
+    margin: 30px 100px 0;
+}
+
+.host{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    margin-left: 50px;
+    max-width: 250px;
+    gap: 10px;
+}
+.host-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+}
+.starRating{
+    margin-top: 24px;
+    display: flex;
+    gap: 20px;
+}
+.hostImg{
+    border-radius: 50%;
+    height: 100px;
+}
+.hostName{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+
+    color: #FF6060;
+    max-width: 50px;
+}
+
+@media all and (max-width: 812px) {
+.logement-info{
+    margin: 0;
+}
+.logement-titre{
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0 20px;
+}
+.logement-location{
+    font-size: 14px;
+    margin: 5px 20px;
+
+}
+.logement-tag{
+    margin: 12px 20px;
+}
+.logement-tag li{
+    /* width: 80px; */
+    /* border: 2px solid green; */
+    display: flex;
+    width: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 20px;
+    border-radius: 5px;
+}
+.logement-tag{
+    font-size: 10px;
+}
+.logement-info{
+    display: flex;
+    flex-direction: column;
+}
+.host-info{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 35px;
+    margin:  15px 20px;
+}
+.hostName{
+    margin-right: 12px;
+}
+.hostImg{
+    height:60px;
+}
+.starRating{
+    height: 20px;
+    margin: 0;
+    margin-right: auto;
+    gap: 5px;
+}
+.logement-content{
+    margin: 20px;
+    gap: 0;
+    flex-direction: column;
+}
+.collapse_logement{
+    display: flex;
+    width: 100%;
+}
+}

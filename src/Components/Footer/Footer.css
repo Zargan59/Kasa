@@ -1,0 +1,24 @@
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center ;
+    background-color: black;
+    color: white;
+}
+.logo{
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+.footer h3{
+    margin-bottom: 30px ;
+}
+@media all and (max-width: 812px) {
+.footer h3{
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+}

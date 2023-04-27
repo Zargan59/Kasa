@@ -1,0 +1,10 @@
+.info{
+    margin: 35px 250px 0;
+}
+
+@media all and (max-width: 812px) {
+.info{
+    margin: 20px;
+}
+
+}
