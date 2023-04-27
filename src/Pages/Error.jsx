@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from '../Components/Header/Navbar'
 // import Footer from '../Components/Footer/Footer'
 import { Link } from 'react-router-dom'
-
 import '../Style/Error.css'
 
 function Error (){
