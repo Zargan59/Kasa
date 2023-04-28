@@ -7,8 +7,10 @@
 .Carroussel_section{
     position: relative;
     margin: 20px 100px;
-    width: 90%;
+    margin-right: 100px;
+    max-width: 1740px;
     height: 540px;
+
 }
 .Carroussel_nav{
     margin: 0;
@@ -57,9 +59,9 @@
 @media all and (max-width: 812px) {
 
 .Carroussel_section{
-    margin: 20px auto;
-    width: 350  px;
+    margin: 20px ;
     height: 255px;
+
 }
 .Carroussel_img{
     border-radius: 10px;

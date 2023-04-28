@@ -1,10 +1,11 @@
+
 .info{
-    margin: 35px 250px 0;
+    margin: 35px 250px 200px; 
 }
 
 @media all and (max-width: 812px) {
 .info{
     margin: 20px;
+    margin-bottom: 200px;
 }
-
 }

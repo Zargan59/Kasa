@@ -21,7 +21,7 @@ function Apropos (){
                     ))}
                 </section>
             </main>
-            <Footer/>
+            <Footer />
         </div>
 
     )

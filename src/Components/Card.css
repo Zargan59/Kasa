@@ -70,7 +70,8 @@ object-fit: cover;
 @media all and (max-width: 812px) {
 
 .cards{
-    margin-top: 22px;
+    margin: 22px 20px;
+
 }
 .card{
     margin: 20px ;
