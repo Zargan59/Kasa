@@ -9,9 +9,9 @@ function Rating(props){
     const stars =[]
     for(let i= 1; i<= maxScore; i++){
         if(i<=rating){
-            stars.push(<img className='redStarImg' src={redStar} alt='stars' />)
+            stars.push(<img key={i}  className='redStarImg'  src={redStar} alt='stars' />)
         }else{
-            stars.push(<img className='greyStarImg' src={star} alt='stars' />)
+            stars.push(<img key={i} className='greyStarImg' src={star} alt='stars' />)
 
         }
     }

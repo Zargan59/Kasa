@@ -5,9 +5,9 @@ import '../../Style/Logement.css'
 function logementTags(props){
     return(
         <ul className="logement-tag">
-            {props.tags.map((tag)=>{
+            {props.tags.map((tag, index)=>{
                 return(
-                    <li>{tag}</li>
+                    <li key={index}>{tag}</li>
                 )
             })}
         </ul>
