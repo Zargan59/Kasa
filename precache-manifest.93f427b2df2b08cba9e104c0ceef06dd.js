@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "df307a315c127103f823",
+    "revision": "90d275cb043c7c05448b",
     "url": "/Kasa/static/css/main.42d208eb.chunk.css"
   },
   {
-    "revision": "df307a315c127103f823",
-    "url": "/Kasa/static/js/main.df307a31.chunk.js"
+    "revision": "90d275cb043c7c05448b",
+    "url": "/Kasa/static/js/main.90d275cb.chunk.js"
   },
   {
     "revision": "c4cf4b3db41e12fdc6b9",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/Kasa/static/media/Banner_About.666ea115.png"
   },
   {
-    "revision": "3bab9c2fec2c765c464963c5c706e55c",
+    "revision": "cc7b35e506e4910a976b0e8b40090c38",
     "url": "/Kasa/index.html"
   }
 ];
